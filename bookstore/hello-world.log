@@ -1,0 +1,6430 @@
+21:26:07,872 DEBUG SQL:144 - select hibernate_sequence.nextval from dual
+21:26:08,013 DEBUG SQL:144 - insert into Message (text, id) values (?, ?)
+21:26:08,018 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Hello! How you doing?]
+21:26:08,022 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [6]
+21:26:48,930 DEBUG SQL:144 - select hibernate_sequence.nextval from dual
+21:26:49,084 DEBUG SQL:144 - insert into Message (text, id) values (?, ?)
+21:26:49,089 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Hello! How you doing?]
+21:26:49,092 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [7]
+12:32:33,317 DEBUG SQL:144 - select hibernate_sequence.nextval from dual
+12:32:33,492 DEBUG SQL:144 - insert into Message (text, id) values (?, ?)
+12:32:33,499 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Hello! How you doing?]
+12:32:33,502 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [8]
+12:43:58,980 DEBUG SQL:144 - select message0_.id as id1_1_0_, message0_.text as text2_1_0_ from Message message0_ where message0_.id=?
+12:43:59,076 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:45:01,186 DEBUG SQL:144 - select message0_.id as id1_1_0_, message0_.text as text2_1_0_ from Message message0_ where message0_.id=?
+12:45:01,272 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:45:01,390 DEBUG SQL:144 - delete from Message where id=?
+12:45:01,391 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:47:07,750 DEBUG SQL:144 - select message0_.id as id1_1_0_, message0_.text as text2_1_0_ from Message message0_ where message0_.id=?
+12:47:07,838 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+12:47:07,947 DEBUG SQL:144 - update Message set text=? where id=?
+12:47:07,949 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [MUBBBBB]
+12:47:07,952 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [4]
+12:48:36,586 DEBUG SQL:144 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+12:48:36,667 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+13:01:14,037 DEBUG SQL:144 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+13:01:14,125 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+13:01:14,229 DEBUG SQL:144 - 
+    update
+        Message 
+    set
+        text=? 
+    where
+        id=?
+13:01:14,230 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [MUBBBBB12]
+13:01:14,233 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [4]
+13:05:41,983 DEBUG SQL:144 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+13:05:42,034 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+17:07:41,555 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:07:41,717 DEBUG SQL:144 - 
+    insert 
+    into
+        Person
+        (addressLine1, city, street, zip, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+17:07:41,724 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Pedaravuru]
+17:07:41,729 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Tenali]
+17:07:41,730 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Brahmamgari veedhi]
+17:07:41,731 TRACE BasicBinder:64 - binding parameter [4] as [VARCHAR] - [500032]
+17:07:41,731 TRACE BasicBinder:64 - binding parameter [5] as [VARCHAR] - [Muben]
+17:07:41,734 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [9]
+17:10:40,771 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:10:40,908 DEBUG SQL:144 - 
+    insert 
+    into
+        Person
+        (addressLine1, city, street, zip, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+17:10:40,920 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Pedaravuru]
+17:10:40,924 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Tenali]
+17:10:40,925 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Brahmamgari veedhi]
+17:10:40,926 TRACE BasicBinder:64 - binding parameter [4] as [VARCHAR] - [500032]
+17:10:40,926 TRACE BasicBinder:64 - binding parameter [5] as [VARCHAR] - [Muben]
+17:10:40,930 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [10]
+17:12:30,564 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:12:30,716 DEBUG SQL:144 - 
+    insert 
+    into
+        Person
+        (addressLine1, city, street, zip, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+17:12:30,724 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Pedaravuru]
+17:12:30,727 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Tenali]
+17:12:30,728 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Brahmamgari veedhi]
+17:12:30,728 TRACE BasicBinder:64 - binding parameter [4] as [VARCHAR] - [500032]
+17:12:30,729 TRACE BasicBinder:64 - binding parameter [5] as [VARCHAR] - [Muben]
+17:12:30,731 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [11]
+17:12:50,345 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:12:50,450 DEBUG SQL:144 - 
+    insert 
+    into
+        Person
+        (addressLine1, city, street, zip, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+17:12:50,455 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Pedaravuru]
+17:12:50,457 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Tenali]
+17:12:50,458 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Brahmamgari veedhi]
+17:12:50,458 TRACE BasicBinder:64 - binding parameter [4] as [VARCHAR] - [500032]
+17:12:50,458 TRACE BasicBinder:64 - binding parameter [5] as [VARCHAR] - [Muben]
+17:12:50,460 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [12]
+17:17:52,657 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+17:17:53,092 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:17:53,144 DEBUG SQL:144 - 
+    insert 
+    into
+        Person
+        (addressLine1, city, street, zip, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+17:17:53,150 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Pedaravuru]
+17:17:53,151 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Tenali]
+17:17:53,151 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Brahmamgari veedhi]
+17:17:53,152 TRACE BasicBinder:64 - binding parameter [4] as [VARCHAR] - [500032]
+17:17:53,153 TRACE BasicBinder:64 - binding parameter [5] as [VARCHAR] - [Muben]
+17:17:53,155 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [13]
+17:49:43,192 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+17:49:43,691 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+17:49:43,715 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+17:49:44,070 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:53:30,463 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:53:30,513 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:53:30,530 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+17:53:30,536 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mr.Guide]
+17:53:30,538 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [15]
+17:53:30,642 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+17:53:30,643 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [15]
+17:53:30,644 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+17:53:30,644 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [16]
+18:32:04,687 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:32:05,336 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:32:05,384 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:32:05,492 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:32:05,539 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:32:05,591 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:32:05,621 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:32:05,641 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:32:05,679 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:32:05,696 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:32:05,724 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:32:05,744 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:32:05,764 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:32:06,126 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:33:45,513 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:33:45,753 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:33:45,846 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:33:45,909 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:33:45,956 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:33:46,013 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:33:46,032 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:33:46,046 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:33:46,107 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:33:46,134 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:33:46,163 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:33:46,188 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:33:46,213 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:33:46,641 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:33:46,760 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:33:46,803 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+18:33:46,814 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mr.Guide]
+18:33:46,819 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+18:33:46,934 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:33:46,935 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:33:46,936 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:33:46,937 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [1]
+18:34:55,713 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:34:55,932 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:34:55,994 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:34:56,036 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:34:56,074 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:34:56,122 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:34:56,141 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:34:56,153 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:34:56,191 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:34:56,214 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:34:56,237 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:34:56,928 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:34:56,952 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:34:57,321 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:37:30,248 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:40:30,756 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:40:30,797 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:40:30,816 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:40:30,839 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+18:40:30,848 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mr.Guide]
+18:40:30,851 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [4]
+18:40:30,973 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:40:30,979 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+18:40:30,980 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Muneer]
+18:40:30,981 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+18:40:31,002 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:40:31,003 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+18:40:31,003 TRACE BasicBinder:52 - binding parameter [2] as [VARCHAR] - [null]
+18:40:31,004 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [5]
+18:41:42,623 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:41:43,367 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:41:43,447 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:41:43,511 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:41:43,580 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:41:43,652 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:41:43,677 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:41:43,694 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:41:43,750 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:41:43,769 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:41:43,789 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:41:43,809 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:41:43,835 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:41:44,170 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:41:44,287 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:41:44,304 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:41:44,329 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+18:41:44,335 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mr.Guide]
+18:41:44,340 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+18:41:44,411 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:41:44,412 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:41:44,412 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:41:44,413 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [1]
+18:41:44,431 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:41:44,432 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:41:44,432 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Muneer]
+18:41:44,433 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+18:44:01,541 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.guide_id as guide_id3_4_0_,
+        student0_.name as name2_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+18:44:01,551 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:44:01,727 DEBUG SQL:144 - 
+    delete 
+    from
+        Student 
+    where
+        id=?
+18:44:01,728 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:44:01,742 DEBUG SQL:144 - 
+    delete 
+    from
+        Guide 
+    where
+        id=?
+18:44:01,742 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+19:34:46,751 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:34:46,761 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+19:34:46,917 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_4_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.guide_id as guide_id3_4_1_,
+        students0_.name as name2_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:34:46,918 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+19:34:46,996 DEBUG SQL:144 - 
+    delete 
+    from
+        Student 
+    where
+        id=?
+19:34:46,997 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [3]
+19:34:47,006 DEBUG SQL:144 - 
+    delete 
+    from
+        Student 
+    where
+        id=?
+19:34:47,007 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:34:47,010 DEBUG SQL:144 - 
+    delete 
+    from
+        Guide 
+    where
+        id=?
+19:34:47,010 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+19:36:09,977 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:36:10,030 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:37:17,360 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:37:17,391 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:37:17,425 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:37:17,449 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+19:37:17,455 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mr.Guide]
+19:37:17,457 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [7]
+19:37:17,552 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:37:17,552 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+19:37:17,553 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+19:37:17,553 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [6]
+19:37:17,556 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:37:17,556 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+19:37:17,556 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Muneer]
+19:37:17,557 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [8]
+19:38:42,937 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.guide_id as guide_id3_4_0_,
+        student0_.name as name2_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:38:42,948 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:40:28,221 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.guide_id as guide_id3_4_0_,
+        student0_.name as name2_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:40:28,235 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [6]
+19:40:28,358 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_4_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.guide_id as guide_id3_4_1_,
+        students0_.name as name2_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:40:28,359 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+19:40:28,417 DEBUG SQL:144 - 
+    delete 
+    from
+        Student 
+    where
+        id=?
+19:40:28,418 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [6]
+19:40:28,425 DEBUG SQL:144 - 
+    delete 
+    from
+        Student 
+    where
+        id=?
+19:40:28,425 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [8]
+19:40:28,430 DEBUG SQL:144 - 
+    delete 
+    from
+        Guide 
+    where
+        id=?
+19:40:28,431 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+20:01:42,508 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+20:01:42,728 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+20:01:42,753 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+20:01:43,094 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:01:43,125 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:01:43,156 DEBUG SQL:144 - 
+    insert 
+    into
+        Passport
+        (id) 
+    values
+        (?)
+20:01:43,161 TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [10]
+20:01:43,243 DEBUG SQL:144 - 
+    insert 
+    into
+        Customer
+        (name, passport_id, id) 
+    values
+        (?, ?, ?)
+20:01:43,245 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mubeen]
+20:01:43,246 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [10]
+20:01:43,247 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [9]
+20:04:16,382 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:04:16,424 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:04:16,455 DEBUG SQL:144 - 
+    insert 
+    into
+        Passport
+        (id) 
+    values
+        (?)
+20:04:16,461 TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [12]
+20:04:16,549 DEBUG SQL:144 - 
+    insert 
+    into
+        Customer
+        (name, passport_id, id) 
+    values
+        (?, ?, ?)
+20:04:16,551 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mubeen]
+20:04:16,551 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [12]
+20:04:16,553 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [11]
+20:06:19,852 DEBUG SQL:144 - 
+    select
+        customer0_.id as id1_1_0_,
+        customer0_.name as name2_1_0_,
+        customer0_.passport_id as passport_id3_1_0_,
+        passport1_.id as id1_4_1_ 
+    from
+        Customer customer0_ 
+    left outer join
+        Passport passport1_ 
+            on customer0_.passport_id=passport1_.id 
+    where
+        customer0_.id=?
+20:06:19,862 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [10]
+20:07:49,055 DEBUG SQL:144 - 
+    select
+        customer0_.id as id1_1_0_,
+        customer0_.name as name2_1_0_,
+        customer0_.passport_id as passport_id3_1_0_,
+        passport1_.id as id1_4_1_ 
+    from
+        Customer customer0_ 
+    left outer join
+        Passport passport1_ 
+            on customer0_.passport_id=passport1_.id 
+    where
+        customer0_.id=?
+20:07:49,069 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [10]
+20:09:01,657 DEBUG SQL:144 - 
+    select
+        customer0_.id as id1_1_0_,
+        customer0_.name as name2_1_0_,
+        customer0_.passport_id as passport_id3_1_0_,
+        passport1_.id as id1_4_1_ 
+    from
+        Customer customer0_ 
+    left outer join
+        Passport passport1_ 
+            on customer0_.passport_id=passport1_.id 
+    where
+        customer0_.id=?
+20:09:01,675 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [9]
+20:09:01,954 DEBUG SQL:144 - 
+    delete 
+    from
+        Customer 
+    where
+        id=?
+20:09:01,954 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [9]
+20:09:02,661 DEBUG SQL:144 - 
+    delete 
+    from
+        Passport 
+    where
+        id=?
+20:09:02,662 TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [10]
+21:08:50,020 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+21:08:50,255 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+21:08:50,289 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+21:08:50,449 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+21:08:50,591 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+21:08:50,873 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:08:50,924 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:08:50,926 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:08:50,927 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:08:50,929 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:08:50,954 DEBUG SQL:144 - 
+    insert 
+    into
+        Movie
+        (movieName, movie_id) 
+    values
+        (?, ?)
+21:08:50,959 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Bahubali]
+21:08:50,961 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [13]
+21:08:51,042 DEBUG SQL:144 - 
+    insert 
+    into
+        Actor
+        (actorName, actor_id) 
+    values
+        (?, ?)
+21:08:51,043 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Prabhas]
+21:08:51,044 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [14]
+21:08:51,067 DEBUG SQL:144 - 
+    insert 
+    into
+        Actor
+        (actorName, actor_id) 
+    values
+        (?, ?)
+21:08:51,068 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Nayanatara]
+21:08:51,068 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [15]
+21:08:51,069 DEBUG SQL:144 - 
+    insert 
+    into
+        Movie
+        (movieName, movie_id) 
+    values
+        (?, ?)
+21:08:51,070 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [KFG]
+21:08:51,070 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [16]
+21:08:51,072 DEBUG SQL:144 - 
+    insert 
+    into
+        Actor
+        (actorName, actor_id) 
+    values
+        (?, ?)
+21:08:51,072 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mubeen]
+21:08:51,073 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [17]
+21:08:51,082 DEBUG SQL:144 - 
+    insert 
+    into
+        movie_actor
+        (movie_id, actor_id) 
+    values
+        (?, ?)
+21:08:51,082 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [13]
+21:08:51,083 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [14]
+21:08:51,101 DEBUG SQL:144 - 
+    insert 
+    into
+        movie_actor
+        (movie_id, actor_id) 
+    values
+        (?, ?)
+21:08:51,102 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [13]
+21:08:51,102 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [15]
+21:08:51,105 DEBUG SQL:144 - 
+    insert 
+    into
+        movie_actor
+        (movie_id, actor_id) 
+    values
+        (?, ?)
+21:08:51,106 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [16]
+21:08:51,106 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [17]
+21:08:51,110 DEBUG SQL:144 - 
+    insert 
+    into
+        movie_actor
+        (movie_id, actor_id) 
+    values
+        (?, ?)
+21:08:51,111 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [16]
+21:08:51,111 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [15]
+15:18:46,531 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus number(10,0),
+        primary key (employeeId)
+    )
+15:18:47,373 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+15:18:47,436 DEBUG SQL:144 - 
+    insert 
+    into
+        Employee
+        (employeeStatus, employeeId) 
+    values
+        (?, ?)
+15:18:47,440 TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [1]
+15:18:47,444 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [21]
+15:29:44,656 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+15:29:44,708 DEBUG SQL:144 - 
+    insert 
+    into
+        Employee
+        (employeeStatus, employeeId) 
+    values
+        (?, ?)
+15:29:44,713 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [PART_TIME]
+15:29:44,714 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [22]
+15:32:40,922 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+15:32:41,739 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+15:32:41,773 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+15:32:41,814 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+15:32:41,862 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+15:32:41,901 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+15:32:41,932 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+15:32:41,974 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+15:32:42,013 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+15:32:42,049 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+15:32:42,091 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+15:32:42,123 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+15:32:42,141 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+15:32:42,154 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+15:32:42,203 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+15:32:42,221 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+15:32:42,242 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+15:32:42,260 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+15:32:42,279 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+15:32:42,298 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+15:32:42,313 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+15:32:42,329 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+15:32:42,349 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+15:32:42,367 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+15:32:42,383 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+15:32:42,418 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+15:32:42,437 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+15:32:42,479 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+15:32:43,101 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+15:32:43,691 DEBUG SQL:144 - 
+    insert 
+    into
+        Employee
+        (employeeStatus, employeeId) 
+    values
+        (?, ?)
+15:32:43,696 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [PART_TIME]
+15:32:43,699 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+20:20:04,563 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+20:20:04,996 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+20:20:05,039 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+20:20:05,114 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+20:20:05,179 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+20:20:05,224 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+20:20:05,257 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+20:20:05,299 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+20:20:05,339 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+20:20:05,375 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+20:20:05,424 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+20:20:05,464 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+20:20:05,490 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+20:20:05,509 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+20:20:05,610 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+20:20:05,639 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+20:20:05,672 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+20:20:05,701 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+20:20:05,722 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+20:20:05,747 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+20:20:05,779 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+20:20:05,832 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+20:20:05,876 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+20:20:05,910 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+20:20:05,930 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+20:20:06,016 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+20:20:06,042 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+20:20:06,065 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+20:20:45,063 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+20:20:45,114 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+20:20:45,144 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+20:20:45,176 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+20:20:45,208 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+20:20:45,237 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+20:20:45,264 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+20:20:45,294 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+20:20:45,321 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+20:20:45,345 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+20:20:45,376 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+20:20:45,402 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+20:20:45,413 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+20:20:45,418 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+20:20:45,435 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+20:20:45,453 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+20:20:45,477 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+20:20:45,491 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+20:20:45,505 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+20:20:45,522 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+20:20:45,536 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+20:20:45,553 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+20:20:45,569 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+20:20:45,590 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+20:20:45,605 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+20:20:45,625 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+20:20:45,645 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+20:20:45,659 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+20:22:14,599 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+20:22:14,653 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+20:22:14,692 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+20:22:14,725 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+20:22:14,755 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+20:22:14,781 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+20:22:14,806 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+20:22:14,837 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+20:22:14,860 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+20:22:14,883 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+20:22:14,911 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+20:22:14,943 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+20:22:14,952 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+20:22:14,957 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+20:22:14,969 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+20:22:14,991 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+20:22:15,011 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+20:22:15,028 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+20:22:15,039 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+20:22:15,052 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+20:22:15,065 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+20:22:15,079 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+20:22:15,093 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+20:22:15,108 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+20:22:15,123 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+20:22:15,137 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+20:22:15,150 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+20:22:15,164 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+20:25:59,897 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+20:25:59,940 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+20:26:00,061 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+20:26:00,548 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:26:00,629 DEBUG SQL:144 - 
+    insert 
+    into
+        Friend
+        (Id) 
+    values
+        (?)
+20:26:00,634 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+20:26:00,707 DEBUG SQL:144 - 
+    insert 
+    into
+        friend_nicknames
+        (friend_id, nick_name) 
+    values
+        (?, ?)
+20:26:00,708 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+20:26:00,709 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [chicha]
+20:26:00,721 DEBUG SQL:144 - 
+    insert 
+    into
+        friend_nicknames
+        (friend_id, nick_name) 
+    values
+        (?, ?)
+20:26:00,722 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+20:26:00,722 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+20:26:00,723 DEBUG SQL:144 - 
+    insert 
+    into
+        friend_nicknames
+        (friend_id, nick_name) 
+    values
+        (?, ?)
+20:26:00,724 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+20:26:00,724 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Musthafa]
+20:26:05,677 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:26:05,729 DEBUG SQL:144 - 
+    insert 
+    into
+        Friend
+        (Id) 
+    values
+        (?)
+20:26:05,732 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+20:26:05,753 DEBUG SQL:144 - 
+    insert 
+    into
+        friend_nicknames
+        (friend_id, nick_name) 
+    values
+        (?, ?)
+20:26:05,753 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+20:26:05,754 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [chicha]
+20:26:05,755 DEBUG SQL:144 - 
+    insert 
+    into
+        friend_nicknames
+        (friend_id, nick_name) 
+    values
+        (?, ?)
+20:26:05,756 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+20:26:05,756 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+20:26:05,757 DEBUG SQL:144 - 
+    insert 
+    into
+        friend_nicknames
+        (friend_id, nick_name) 
+    values
+        (?, ?)
+20:26:05,758 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+20:26:05,758 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Musthafa]
+19:37:37,406 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:41:27,584 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:42:57,090 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:42:57,145 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:42:57,147 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:42:57,167 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+19:42:57,171 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Bitch]
+19:42:57,173 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [5]
+19:42:57,331 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:42:57,331 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+19:42:57,332 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen1]
+19:42:57,332 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [6]
+19:42:57,362 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:42:57,363 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+19:42:57,364 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+19:42:57,364 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [7]
+19:44:46,656 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+19:44:46,944 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+19:44:46,987 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+19:44:47,041 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+19:44:47,073 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+19:44:47,143 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+19:44:47,185 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+19:44:47,221 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+19:44:47,243 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+19:44:47,269 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+19:44:47,311 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+19:44:47,338 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+19:44:47,369 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+19:44:47,394 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+19:44:47,423 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+19:44:47,441 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+19:44:47,503 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+19:44:47,520 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+19:44:47,535 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+19:44:47,567 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+19:44:47,583 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+19:44:47,591 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+19:44:47,604 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+19:44:47,621 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+19:44:47,640 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+19:44:47,654 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+19:44:47,670 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+19:44:47,691 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+19:44:47,704 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+19:44:47,734 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+19:44:47,750 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+19:44:47,766 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+19:44:47,793 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+19:44:47,964 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:44:48,048 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:44:48,050 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:44:48,066 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+19:44:48,072 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Bitch]
+19:44:48,074 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+19:44:48,123 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:44:48,124 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+19:44:48,124 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+19:44:48,125 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+19:44:48,143 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:44:48,144 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+19:44:48,144 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen1]
+19:44:48,144 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+19:46:29,222 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+19:46:29,269 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+19:46:29,293 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+19:46:29,329 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+19:46:29,354 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+19:46:29,380 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+19:46:29,396 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+19:46:29,424 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+19:46:29,449 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+19:46:29,472 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+19:46:29,498 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+19:46:29,522 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+19:46:29,548 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+19:46:29,571 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+19:46:29,579 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+19:46:29,585 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+19:46:29,598 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+19:46:29,608 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+19:46:29,622 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+19:46:29,634 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+19:46:29,645 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+19:46:29,656 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+19:46:29,666 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+19:46:29,681 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+19:46:29,691 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+19:46:29,704 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+19:46:29,715 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+19:46:29,731 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+19:46:29,742 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+19:46:29,754 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+19:46:29,767 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+19:46:29,778 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+19:46:29,789 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+19:46:29,956 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:46:30,050 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:46:30,052 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:46:30,071 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+19:46:30,074 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Bitch]
+19:46:30,076 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+19:46:30,106 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:46:30,111 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:46:30,111 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+19:46:30,111 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+19:46:30,130 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:46:30,130 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:46:30,131 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen1]
+19:46:30,131 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+19:48:03,328 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+19:48:03,382 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+19:48:03,407 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+19:48:03,442 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+19:48:03,471 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+19:48:03,500 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+19:48:03,515 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+19:48:03,548 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+19:48:03,575 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+19:48:03,606 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+19:48:03,637 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+19:48:03,665 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+19:48:03,697 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+19:48:03,727 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+19:48:03,737 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+19:48:03,743 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+19:48:03,767 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+19:48:03,785 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+19:48:03,806 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+19:48:03,821 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+19:48:03,841 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+19:48:03,851 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+19:48:03,868 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+19:48:03,884 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+19:48:03,900 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+19:48:03,915 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+19:48:03,930 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+19:48:03,945 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+19:48:03,961 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+19:48:03,976 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+19:48:03,991 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+19:48:04,006 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+19:48:04,018 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+19:48:04,237 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:48:04,298 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:48:04,325 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:48:04,326 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:48:39,088 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+19:48:39,156 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+19:48:39,183 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+19:48:39,216 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+19:48:39,247 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+19:48:39,296 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+19:48:39,318 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+19:48:39,350 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+19:48:39,382 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+19:48:39,421 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+19:48:39,467 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+19:48:39,495 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+19:48:39,528 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+19:48:39,557 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+19:48:39,565 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+19:48:39,570 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+19:48:39,595 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+19:48:39,613 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+19:48:39,634 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+19:48:39,654 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+19:48:39,669 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+19:48:39,679 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+19:48:39,697 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+19:48:39,717 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+19:48:39,748 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+19:48:39,770 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+19:48:39,798 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+19:48:39,836 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+19:48:39,903 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+19:48:39,936 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+19:48:39,954 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+19:48:39,969 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+19:48:39,982 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+19:48:40,213 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:48:40,337 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:48:40,340 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:48:40,361 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+19:48:40,368 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Bitch]
+19:48:40,371 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+19:48:40,404 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:48:40,405 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:48:40,405 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+19:48:40,406 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+19:48:40,431 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:48:40,431 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:48:40,432 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen1]
+19:48:40,432 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+19:49:23,477 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:49:23,533 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:49:23,536 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:49:23,555 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+19:49:23,557 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Bitch]
+19:49:23,559 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [4]
+19:49:23,574 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:49:23,575 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+19:49:23,575 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen1]
+19:49:23,575 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [5]
+19:49:23,577 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+19:49:23,578 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [4]
+19:49:23,578 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+19:49:23,578 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [6]
+19:49:46,891 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:49:46,899 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:49:46,920 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:49:46,920 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:49:46,949 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:49:46,950 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:51:40,528 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:51:40,536 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:51:40,551 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:51:40,552 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:51:40,584 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:51:40,585 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:56:10,456 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:56:10,464 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:56:10,479 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:56:10,480 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:56:10,507 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:56:10,508 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:56:41,994 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:56:42,002 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:56:42,018 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:56:42,019 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:56:42,047 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:56:42,048 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:59:27,251 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+19:59:27,259 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:59:27,281 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+19:59:27,282 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+19:59:27,312 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+19:59:27,313 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+20:04:24,818 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+20:04:24,828 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+20:04:24,889 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:04:24,890 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+20:05:14,587 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+20:05:14,595 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+20:05:14,636 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:05:14,637 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:26:53,567 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+12:26:53,575 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:26:53,646 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:26:53,647 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:26:53,652 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+12:26:53,653 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:30:43,568 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+12:30:43,578 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:30:43,661 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:30:43,662 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:30:43,666 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+12:30:43,666 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:31:09,429 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+12:31:09,436 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:31:09,512 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_0_,
+        guide0_.name as name2_6_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:31:09,512 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:31:09,519 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+12:31:09,520 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:31:36,469 DEBUG SQL:144 - 
+    select
+        student0_.id as id1_12_0_,
+        student0_.guide_id as guide_id3_12_0_,
+        student0_.name as name2_12_0_,
+        guide1_.id as id1_6_1_,
+        guide1_.name as name2_6_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+12:31:36,477 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:31:36,519 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_12_0_,
+        students0_.id as id1_12_0_,
+        students0_.id as id1_12_1_,
+        students0_.guide_id as guide_id3_12_1_,
+        students0_.name as name2_12_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+12:31:36,520 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:50:24,515 DEBUG SQL:144 - 
+    select
+        guide0_.id as col_0_0_,
+        guide0_.name as col_1_0_ 
+    from
+        Guide guide0_
+12:56:08,831 DEBUG SQL:144 - 
+    select
+        guide0_.name as col_0_0_ 
+    from
+        Guide guide0_
+12:57:01,113 DEBUG SQL:144 - 
+    select
+        guide0_.name as col_0_0_ 
+    from
+        Guide guide0_
+13:00:58,118 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_,
+        guide0_.name as name2_6_ 
+    from
+        Guide guide0_
+13:05:08,104 DEBUG SQL:144 - 
+    select
+        guide0_.name as col_0_0_ 
+    from
+        Guide guide0_
+13:07:16,292 DEBUG SQL:144 - 
+    select
+        guide0_.name as col_0_0_ 
+    from
+        Guide guide0_
+13:18:09,761 DEBUG SQL:144 - 
+    select
+        guide0_.name as col_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.name=?
+13:18:09,773 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Mubeen]
+14:19:07,447 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_,
+        guide0_.name as name2_6_ 
+    from
+        Guide guide0_ 
+    left outer join
+        Student students1_ 
+            on guide0_.id=students1_.guide_id 
+    where
+        students1_.id is null
+14:24:21,767 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_,
+        guide0_.name as name2_6_ 
+    from
+        Guide guide0_ 
+    left outer join
+        Student students1_ 
+            on guide0_.id=students1_.guide_id 
+    where
+        students1_.name like 'A%'
+14:24:49,151 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_6_,
+        guide0_.name as name2_6_ 
+    from
+        Guide guide0_ 
+    left outer join
+        Student students1_ 
+            on guide0_.id=students1_.guide_id
+19:56:25,685 DEBUG SQL:144 - 
+    
+    create table Animal (
+       DTYPE varchar2(31 char) not null,
+        Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+19:56:26,831 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:56:26,876 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+19:56:26,897 DEBUG SQL:144 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE, Id) 
+    values
+        (?, 'Dog', ?)
+19:56:26,901 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+19:56:26,903 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [7]
+19:56:27,008 DEBUG SQL:144 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE, Id) 
+    values
+        (?, 'Cat', ?)
+19:56:27,009 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+19:56:27,009 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [8]
+14:05:12,732 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+14:05:13,327 DEBUG SQL:144 - 
+    
+    drop table Animal cascade constraints
+14:05:13,402 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+14:05:13,489 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+14:05:13,518 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+14:05:13,545 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+14:05:13,572 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+14:05:13,591 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+14:05:13,622 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+14:05:13,649 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+14:05:13,681 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+14:05:13,713 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+14:05:13,742 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+14:05:13,776 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+14:05:13,803 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+14:05:13,820 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+14:05:13,831 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+14:05:13,924 DEBUG SQL:144 - 
+    
+    create table Animal (
+       DTYPE varchar2(31 char) not null,
+        Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+14:05:13,938 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+14:05:13,950 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+14:05:13,965 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+14:05:13,976 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+14:05:13,989 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+14:05:13,996 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+14:05:14,012 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+14:05:14,026 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+14:05:14,043 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+14:05:14,056 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+14:05:14,071 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+14:05:14,085 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+14:05:14,099 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+14:05:14,136 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+14:05:14,151 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+14:05:14,164 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+14:05:14,191 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+14:05:14,413 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+14:05:14,535 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+14:05:14,552 DEBUG SQL:144 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE, Id) 
+    values
+        (?, 'Dog', ?)
+14:05:14,557 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+14:05:14,560 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+14:05:14,605 DEBUG SQL:144 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE, Id) 
+    values
+        (?, 'Cat', ?)
+14:05:14,606 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+14:05:14,607 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+14:09:31,621 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+14:09:31,640 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+14:09:31,647 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+14:09:31,683 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+14:09:31,717 DEBUG SQL:144 - 
+    
+    drop table Animal cascade constraints
+14:09:31,748 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+14:09:31,768 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+14:09:31,778 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+14:09:31,800 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+14:09:31,803 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+14:09:31,826 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+14:09:31,849 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+14:09:31,864 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+14:09:31,884 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+14:09:31,904 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+14:09:31,926 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+14:09:31,954 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+14:09:31,975 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+14:09:32,003 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+14:09:32,021 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+14:09:32,028 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+14:09:32,032 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+14:09:32,044 DEBUG SQL:144 - 
+    
+    create table Animal (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+14:09:32,055 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+14:09:32,066 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+14:09:32,084 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+14:09:32,094 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+14:09:32,103 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+14:09:32,115 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+14:09:32,123 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+14:09:32,129 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+14:09:32,142 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+14:09:32,152 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+14:09:32,164 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+14:09:32,182 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+14:09:32,194 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+14:09:32,206 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+14:09:32,216 DEBUG SQL:144 - 
+    
+    alter table Cat 
+       add constraint FK6rsctbf0bus7y9i95s95c394k 
+       foreign key (Id) 
+       references Animal
+14:09:32,229 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+14:09:32,241 DEBUG SQL:144 - 
+    
+    alter table Dog 
+       add constraint FKnwij4n3nncis7522nxg7asjmo 
+       foreign key (Id) 
+       references Animal
+14:09:32,251 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+14:09:32,261 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+14:09:32,271 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+14:09:32,287 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+14:09:32,474 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+14:09:32,561 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+14:09:32,581 DEBUG SQL:144 - 
+    insert 
+    into
+        Animal
+        (name, Id) 
+    values
+        (?, ?)
+14:09:32,584 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+14:09:32,586 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+14:09:32,610 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (Id) 
+    values
+        (?)
+14:09:32,611 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+14:09:32,622 DEBUG SQL:144 - 
+    insert 
+    into
+        Animal
+        (name, Id) 
+    values
+        (?, ?)
+14:09:32,623 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+14:09:32,623 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+14:09:32,625 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (Id) 
+    values
+        (?)
+14:09:32,625 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+15:13:27,480 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:13:27,505 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:13:27,508 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:13:27,542 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+15:13:27,615 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+15:13:27,633 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+15:13:27,658 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+15:13:27,680 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+15:13:27,699 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+15:13:27,719 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+15:13:27,738 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+15:13:27,751 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+15:13:27,770 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+15:13:27,785 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+15:13:27,815 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+15:13:27,836 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+15:13:27,857 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+15:13:27,878 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+15:13:27,896 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+15:13:27,907 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+15:13:27,911 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+15:13:27,928 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+15:13:27,938 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:13:27,948 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+15:13:27,957 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:13:27,967 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+15:13:27,978 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+15:13:27,988 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+15:13:27,995 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+15:13:28,006 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+15:13:28,017 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+15:13:28,028 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+15:13:28,038 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+15:13:28,047 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+15:13:28,060 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+15:13:28,070 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+15:13:28,087 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+15:13:28,098 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+15:13:28,110 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+15:13:28,121 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+15:13:28,280 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+15:13:28,358 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+15:13:28,372 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:13:28,375 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:13:28,377 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+15:13:28,402 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:13:28,402 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:13:28,403 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+15:15:49,422 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:15:49,431 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:15:49,434 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:15:49,459 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+15:15:49,494 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+15:15:49,514 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+15:15:49,537 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+15:15:49,561 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+15:15:49,581 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+15:15:49,601 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+15:15:49,626 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+15:15:49,639 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+15:15:49,661 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+15:15:49,665 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+15:15:49,685 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+15:15:49,707 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+15:15:49,735 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+15:15:49,755 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+15:15:49,777 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+15:15:49,799 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+15:15:49,810 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+15:15:49,815 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+15:15:49,830 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+15:15:49,843 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:15:49,856 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+15:15:49,869 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:15:49,882 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+15:15:49,893 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+15:15:49,903 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+15:15:49,912 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+15:15:49,926 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+15:15:49,938 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+15:15:49,948 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+15:15:49,959 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+15:15:49,974 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+15:15:49,988 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+15:15:50,005 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+15:15:50,019 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+15:15:50,031 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+15:15:50,043 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+15:15:50,055 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+15:15:50,068 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+15:15:50,358 DEBUG SQL:144 - 
+    select
+        sequence_next_hi_value 
+    from
+        hibernate_sequences 
+    where
+        sequence_name = 'Animal' for update
+            
+15:15:50,413 DEBUG SQL:144 - 
+    insert 
+    into
+        hibernate_sequences
+        (sequence_name, sequence_next_hi_value) 
+    values
+        ('Animal', ?)
+15:15:50,442 DEBUG SQL:144 - 
+    update
+        hibernate_sequences 
+    set
+        sequence_next_hi_value = ? 
+    where
+        sequence_next_hi_value = ? 
+        and sequence_name = 'Animal'
+15:15:50,495 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:15:50,498 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:15:50,501 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+15:15:50,514 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:15:50,515 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:15:50,515 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+15:26:44,190 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:26:44,230 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:26:44,235 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:27:13,351 DEBUG SQL:144 - 
+    select
+        sequence_next_hi_value 
+    from
+        hibernate_sequences 
+    where
+        sequence_name = 'Animal' for update
+            
+15:27:13,369 DEBUG SQL:144 - 
+    update
+        hibernate_sequences 
+    set
+        sequence_next_hi_value = ? 
+    where
+        sequence_next_hi_value = ? 
+        and sequence_name = 'Animal'
+15:27:13,538 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:27:13,547 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:27:13,550 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [32768]
+15:27:13,570 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:27:13,571 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:27:13,571 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [32769]
+15:27:32,181 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:27:32,199 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:27:32,205 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:27:32,249 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+15:27:32,344 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+15:27:32,387 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+15:27:32,439 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+15:27:32,543 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+15:27:32,605 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+15:27:32,644 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+15:27:32,683 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+15:27:32,707 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+15:27:32,752 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+15:27:32,790 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+15:27:32,859 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+15:27:32,904 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+15:27:32,948 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+15:27:32,978 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+15:27:33,023 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+15:27:33,055 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+15:27:33,077 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+15:27:33,087 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+15:27:33,135 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+15:27:33,155 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:27:33,175 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+15:27:33,198 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:27:33,217 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+15:27:33,241 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+15:27:33,258 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+15:27:33,275 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+15:27:33,289 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+15:27:33,316 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+15:27:33,350 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+15:27:33,382 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+15:27:33,468 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+15:27:33,490 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+15:27:33,542 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+15:27:33,565 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+15:27:33,599 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+15:27:33,636 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+15:27:33,653 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+15:27:33,670 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+15:27:34,030 DEBUG SQL:144 - 
+    select
+        sequence_next_hi_value 
+    from
+        hibernate_sequences 
+    where
+        sequence_name = 'Animal' for update
+            
+15:27:34,113 DEBUG SQL:144 - 
+    insert 
+    into
+        hibernate_sequences
+        (sequence_name, sequence_next_hi_value) 
+    values
+        ('Animal', ?)
+15:27:34,183 DEBUG SQL:144 - 
+    update
+        hibernate_sequences 
+    set
+        sequence_next_hi_value = ? 
+    where
+        sequence_next_hi_value = ? 
+        and sequence_name = 'Animal'
+15:27:34,482 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:27:34,489 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:27:34,495 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+15:27:34,527 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:27:34,530 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:27:34,530 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+15:28:00,775 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:28:00,786 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:28:00,790 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:28:00,823 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+15:28:00,866 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+15:28:00,901 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+15:28:00,931 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+15:28:00,963 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+15:28:00,994 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+15:28:01,022 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+15:28:01,048 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+15:28:01,066 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+15:28:01,089 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+15:28:01,114 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+15:28:01,141 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+15:28:01,178 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+15:28:01,290 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+15:28:01,329 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+15:28:01,364 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+15:28:01,405 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+15:28:01,416 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+15:28:01,424 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+15:28:01,444 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+15:28:01,538 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:28:01,553 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+15:28:01,607 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+15:28:01,623 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+15:28:01,648 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+15:28:01,663 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+15:28:01,674 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+15:28:01,690 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+15:28:01,709 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+15:28:01,723 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+15:28:01,741 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+15:28:01,763 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+15:28:01,778 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+15:28:01,810 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+15:28:01,828 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+15:28:01,845 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+15:28:01,860 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+15:28:01,880 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+15:28:01,897 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+15:28:02,216 DEBUG SQL:144 - 
+    select
+        sequence_next_hi_value 
+    from
+        hibernate_sequences 
+    where
+        sequence_name = 'Animal' for update
+            
+15:28:02,286 DEBUG SQL:144 - 
+    insert 
+    into
+        hibernate_sequences
+        (sequence_name, sequence_next_hi_value) 
+    values
+        ('Animal', ?)
+15:28:02,320 DEBUG SQL:144 - 
+    update
+        hibernate_sequences 
+    set
+        sequence_next_hi_value = ? 
+    where
+        sequence_next_hi_value = ? 
+        and sequence_name = 'Animal'
+15:28:02,382 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:28:02,385 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:28:02,388 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+15:28:02,406 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:28:02,406 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:28:02,407 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+15:28:34,136 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:28:34,149 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:28:34,153 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:28:36,277 DEBUG SQL:144 - 
+    select
+        sequence_next_hi_value 
+    from
+        hibernate_sequences 
+    where
+        sequence_name = 'Animal' for update
+            
+15:28:36,280 DEBUG SQL:144 - 
+    update
+        hibernate_sequences 
+    set
+        sequence_next_hi_value = ? 
+    where
+        sequence_next_hi_value = ? 
+        and sequence_name = 'Animal'
+15:28:36,351 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:28:36,355 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:28:36,356 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [32768]
+15:28:36,361 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:28:36,362 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:28:36,362 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [32769]
+15:29:08,268 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+15:29:08,279 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+15:29:08,284 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+15:29:09,752 DEBUG SQL:144 - 
+    select
+        sequence_next_hi_value 
+    from
+        hibernate_sequences 
+    where
+        sequence_name = 'Animal' for update
+            
+15:29:09,754 DEBUG SQL:144 - 
+    update
+        hibernate_sequences 
+    set
+        sequence_next_hi_value = ? 
+    where
+        sequence_next_hi_value = ? 
+        and sequence_name = 'Animal'
+15:29:09,827 DEBUG SQL:144 - 
+    insert 
+    into
+        Dog
+        (name, Id) 
+    values
+        (?, ?)
+15:29:09,830 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [DOG]
+15:29:09,832 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [65536]
+15:29:09,836 DEBUG SQL:144 - 
+    insert 
+    into
+        Cat
+        (name, Id) 
+    values
+        (?, ?)
+15:29:09,837 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [CAT]
+15:29:09,838 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [65537]
+17:52:46,568 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+17:52:46,602 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+17:52:46,608 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+17:53:12,964 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+17:53:12,974 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+17:53:12,977 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+17:53:37,298 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+17:53:37,308 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+17:53:37,311 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+17:53:38,403 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:54:41,011 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+17:54:41,020 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+17:54:41,023 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+17:54:42,147 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:54:42,217 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:54:42,220 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+17:54:42,253 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+17:54:42,258 TRACE BasicBinder:52 - binding parameter [1] as [VARCHAR] - [null]
+17:54:42,261 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [2]
+17:54:42,377 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+17:54:42,378 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+17:54:42,378 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+17:54:42,379 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+17:54:42,396 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+17:54:42,397 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+17:54:42,397 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+17:54:42,400 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [4]
+18:00:32,641 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:00:32,713 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:00:32,718 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:00:32,750 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+18:00:33,014 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:00:33,051 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+18:00:33,100 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+18:00:33,141 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+18:00:33,177 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+18:00:33,208 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+18:00:33,248 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+18:00:33,274 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:00:33,320 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+18:00:33,351 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:00:33,380 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+18:00:33,422 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+18:00:33,465 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+18:00:33,495 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:00:33,530 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:00:33,562 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:00:33,578 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:00:33,588 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+18:00:33,631 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:00:33,647 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:00:33,667 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+18:00:33,689 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:00:33,707 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+18:00:33,725 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+18:00:33,742 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+18:00:33,756 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:00:33,778 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+18:00:33,795 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:00:33,813 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+18:00:33,834 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+18:00:33,851 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+18:00:33,867 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:00:33,884 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:00:33,900 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+18:00:33,934 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+18:00:33,953 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+18:00:33,972 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+18:00:33,987 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:00:34,205 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:00:34,257 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:01:00,635 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:01:00,644 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:01:00,647 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:01:00,672 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+18:01:00,717 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:01:00,745 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+18:01:00,769 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+18:01:00,808 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+18:01:00,837 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+18:01:00,866 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+18:01:00,890 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+18:01:00,904 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:01:00,926 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+18:01:00,956 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:01:00,985 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+18:01:01,015 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+18:01:01,041 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+18:01:01,064 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:01:01,092 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:01:01,111 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:01:01,120 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:01:01,125 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+18:01:01,137 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:01:01,149 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:01:01,161 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+18:01:01,172 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:01:01,183 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+18:01:01,194 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+18:01:01,214 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+18:01:01,223 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:01:01,236 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+18:01:01,248 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:01:01,259 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+18:01:01,271 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+18:01:01,287 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+18:01:01,300 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:01:01,316 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:01:01,328 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+18:01:01,343 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+18:01:01,357 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+18:01:01,369 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+18:01:01,380 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:01:01,572 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:01:01,633 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:01:42,136 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:01:42,145 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:01:42,149 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:01:42,173 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+18:01:42,206 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:01:42,226 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+18:01:42,246 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+18:01:42,271 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+18:01:42,301 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+18:01:42,332 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+18:01:42,363 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+18:01:42,377 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:01:42,408 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+18:01:42,434 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:01:42,460 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+18:01:42,487 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+18:01:42,522 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+18:01:42,553 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:01:42,593 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:01:42,637 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:01:42,649 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:01:42,655 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+18:01:42,672 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:01:42,695 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:01:42,709 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+18:01:42,724 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:01:42,739 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+18:01:42,756 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+18:01:42,770 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+18:01:42,779 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:01:42,795 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+18:01:42,811 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:01:42,824 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+18:01:42,841 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+18:01:42,854 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+18:01:42,868 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:01:42,886 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:01:42,901 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+18:01:42,916 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+18:01:42,927 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+18:01:42,939 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+18:01:42,951 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:01:43,145 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:01:43,192 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:02:24,555 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:02:24,563 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:02:24,566 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:02:24,589 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+18:02:24,626 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:02:24,650 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+18:02:24,671 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+18:02:24,695 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+18:02:24,734 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+18:02:24,791 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+18:02:24,830 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+18:02:24,852 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:02:24,878 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+18:02:24,902 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:02:24,928 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+18:02:24,956 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+18:02:24,993 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+18:02:25,018 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:02:25,049 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:02:25,072 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:02:25,080 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:02:25,085 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+18:02:25,095 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:02:25,107 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:02:25,119 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+18:02:25,131 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:02:25,148 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+18:02:25,162 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+18:02:25,174 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+18:02:25,181 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:02:25,195 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+18:02:25,212 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:02:25,224 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+18:02:25,234 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+18:02:25,245 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+18:02:25,263 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:02:25,287 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:02:25,305 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+18:02:25,323 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+18:02:25,337 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+18:02:25,348 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+18:02:25,358 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:02:25,526 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:02:25,634 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:02:25,637 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:02:25,658 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+18:02:25,662 TRACE BasicBinder:52 - binding parameter [1] as [VARCHAR] - [null]
+18:02:25,664 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+18:02:25,716 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:02:25,717 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:02:25,717 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:02:25,717 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+18:02:25,735 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:02:25,735 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:02:25,736 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:02:25,736 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+18:02:57,340 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:02:57,349 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:02:57,352 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:02:57,377 DEBUG SQL:144 - 
+    
+    drop table Actor cascade constraints
+18:02:57,416 DEBUG SQL:144 - 
+    
+    drop table BOOK cascade constraints
+18:02:57,438 DEBUG SQL:144 - 
+    
+    drop table Cat cascade constraints
+18:02:57,478 DEBUG SQL:144 - 
+    
+    drop table Customer cascade constraints
+18:02:57,505 DEBUG SQL:144 - 
+    
+    drop table Dog cascade constraints
+18:02:57,528 DEBUG SQL:144 - 
+    
+    drop table Employee cascade constraints
+18:02:57,551 DEBUG SQL:144 - 
+    
+    drop table Friend cascade constraints
+18:02:57,576 DEBUG SQL:144 - 
+    
+    drop table friend_nicknames cascade constraints
+18:02:57,590 DEBUG SQL:144 - 
+    
+    drop table Guide cascade constraints
+18:02:57,615 DEBUG SQL:144 - 
+    
+    drop table hibernate_sequences cascade constraints
+18:02:57,639 DEBUG SQL:144 - 
+    
+    drop table Message cascade constraints
+18:02:57,662 DEBUG SQL:144 - 
+    
+    drop table Movie cascade constraints
+18:02:57,685 DEBUG SQL:144 - 
+    
+    drop table movie_actor cascade constraints
+18:02:57,718 DEBUG SQL:144 - 
+    
+    drop table Passport cascade constraints
+18:02:57,742 DEBUG SQL:144 - 
+    
+    drop table Person cascade constraints
+18:02:57,772 DEBUG SQL:144 - 
+    
+    drop table Student cascade constraints
+18:02:57,799 DEBUG SQL:144 - 
+    
+    drop sequence hibernate_sequence
+18:02:57,808 DEBUG SQL:144 - create sequence hibernate_sequence start with 1 increment by  1
+18:02:57,812 DEBUG SQL:144 - 
+    
+    create table Actor (
+       actor_id number(19,0) not null,
+        actorName varchar2(255 char),
+        primary key (actor_id)
+    )
+18:02:57,831 DEBUG SQL:144 - 
+    
+    create table BOOK (
+       isbn varchar2(255 char) not null,
+        Book_name varchar2(255 char),
+        primary key (isbn)
+    )
+18:02:57,841 DEBUG SQL:144 - 
+    
+    create table Cat (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:02:57,854 DEBUG SQL:144 - 
+    
+    create table Customer (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        passport_id number(10,0),
+        primary key (id)
+    )
+18:02:57,864 DEBUG SQL:144 - 
+    
+    create table Dog (
+       Id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (Id)
+    )
+18:02:57,875 DEBUG SQL:144 - 
+    
+    create table Employee (
+       employeeId number(19,0) not null,
+        employeeStatus varchar2(255 char),
+        primary key (employeeId)
+    )
+18:02:57,888 DEBUG SQL:144 - 
+    
+    create table Friend (
+       Id number(19,0) not null,
+        primary key (Id)
+    )
+18:02:57,898 DEBUG SQL:144 - 
+    
+    create table friend_nicknames (
+       friend_id number(19,0) not null,
+        nick_name varchar2(255 char)
+    )
+18:02:57,913 DEBUG SQL:144 - 
+    
+    create table Guide (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        primary key (id)
+    )
+18:02:57,925 DEBUG SQL:144 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar2(255 char) not null,
+        sequence_next_hi_value number(19,0),
+        primary key (sequence_name)
+    )
+18:02:57,941 DEBUG SQL:144 - 
+    
+    create table Message (
+       id number(19,0) not null,
+        text varchar2(255 char),
+        primary key (id)
+    )
+18:02:57,954 DEBUG SQL:144 - 
+    
+    create table Movie (
+       movie_id number(19,0) not null,
+        movieName varchar2(255 char),
+        primary key (movie_id)
+    )
+18:02:57,970 DEBUG SQL:144 - 
+    
+    create table movie_actor (
+       movie_id number(19,0) not null,
+        actor_id number(19,0) not null,
+        primary key (movie_id, actor_id)
+    )
+18:02:57,989 DEBUG SQL:144 - 
+    
+    create table Passport (
+       id number(10,0) not null,
+        primary key (id)
+    )
+18:02:58,006 DEBUG SQL:144 - 
+    
+    create table Person (
+       id number(10,0) not null,
+        addressLine1 varchar2(255 char),
+        city varchar2(255 char),
+        street varchar2(255 char),
+        zip varchar2(255 char),
+        name varchar2(255 char) not null,
+        primary key (id)
+    )
+18:02:58,025 DEBUG SQL:144 - 
+    
+    create table Student (
+       id number(19,0) not null,
+        name varchar2(255 char),
+        guide_id number(19,0),
+        primary key (id)
+    )
+18:02:58,038 DEBUG SQL:144 - 
+    
+    alter table Customer 
+       add constraint FK55lqk21ofiw00596jpwlc0r07 
+       foreign key (passport_id) 
+       references Passport
+18:02:58,051 DEBUG SQL:144 - 
+    
+    alter table friend_nicknames 
+       add constraint FKsl9pmnkgfqiup00bamra0rak4 
+       foreign key (friend_id) 
+       references Friend
+18:02:58,062 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FK2anlx6ycvy2nlm1o0ga9glpmu 
+       foreign key (actor_id) 
+       references Actor
+18:02:58,074 DEBUG SQL:144 - 
+    
+    alter table movie_actor 
+       add constraint FKi17y5929b8lhmtay3g1wo76e2 
+       foreign key (movie_id) 
+       references Movie
+18:02:58,084 DEBUG SQL:144 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+18:02:58,294 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:02:58,353 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:03:33,681 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:03:33,692 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:03:33,696 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:03:34,938 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:03:34,987 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:03:34,988 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+18:03:35,008 DEBUG SQL:144 - 
+    insert 
+    into
+        Guide
+        (name, id) 
+    values
+        (?, ?)
+18:03:35,012 TRACE BasicBinder:52 - binding parameter [1] as [VARCHAR] - [null]
+18:03:35,014 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+18:03:35,037 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:03:35,038 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:03:35,038 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:03:35,040 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+18:03:35,050 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+18:03:35,052 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:03:35,052 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:03:35,054 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+18:04:08,823 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:04:08,833 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:04:08,836 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:04:10,010 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:04:10,015 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+18:04:36,282 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:04:36,291 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:04:36,294 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:04:37,453 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:04:37,458 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:04:37,515 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_15_0_,
+        students0_.id as id1_15_0_,
+        students0_.id as id1_15_1_,
+        students0_.guide_id as guide_id3_15_1_,
+        students0_.name as name2_15_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+18:04:37,516 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:05:01,969 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:05:01,979 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:05:01,982 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:05:03,156 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:05:03,161 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:15:42,832 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:15:42,892 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:15:42,897 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:15:45,010 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:15:45,017 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:15:45,086 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_15_0_,
+        students0_.id as id1_15_0_,
+        students0_.id as id1_15_1_,
+        students0_.guide_id as guide_id3_15_1_,
+        students0_.name as name2_15_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+18:15:45,087 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:15:45,147 DEBUG SQL:144 - 
+    update
+        Student 
+    set
+        guide_id=?,
+        name=? 
+    where
+        id=?
+18:15:45,148 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:15:45,149 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [CO CO COLA]
+18:15:45,149 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+18:22:51,308 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:22:51,320 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:22:51,323 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:22:52,492 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:22:52,497 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:22:52,545 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:22:52,546 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:22:52,550 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_15_0_,
+        students0_.id as id1_15_0_,
+        students0_.id as id1_15_1_,
+        students0_.guide_id as guide_id3_15_1_,
+        students0_.name as name2_15_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+18:22:52,551 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_15_0_,
+        students0_.id as id1_15_0_,
+        students0_.id as id1_15_1_,
+        students0_.guide_id as guide_id3_15_1_,
+        students0_.name as name2_15_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+18:22:52,551 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:22:52,552 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:22:53,622 DEBUG SQL:144 - 
+    update
+        Student 
+    set
+        guide_id=?,
+        name=? 
+    where
+        id=?
+18:22:53,623 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:22:53,624 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen-Changed]
+18:22:53,625 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+18:22:55,609 DEBUG SQL:144 - 
+    update
+        Student 
+    set
+        guide_id=?,
+        name=? 
+    where
+        id=?
+18:22:55,617 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:22:55,618 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [CO CO COLA]
+18:22:55,619 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [3]
+18:28:32,214 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+18:28:32,226 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+18:28:32,230 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+18:28:33,413 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:28:33,419 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:28:33,463 DEBUG SQL:144 - 
+    select
+        guide0_.id as id1_9_0_,
+        guide0_.name as name2_9_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+18:28:33,463 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:28:33,483 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_15_0_,
+        students0_.id as id1_15_0_,
+        students0_.id as id1_15_1_,
+        students0_.guide_id as guide_id3_15_1_,
+        students0_.name as name2_15_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+18:28:33,483 DEBUG SQL:144 - 
+    select
+        students0_.guide_id as guide_id3_15_0_,
+        students0_.id as id1_15_0_,
+        students0_.id as id1_15_1_,
+        students0_.guide_id as guide_id3_15_1_,
+        students0_.name as name2_15_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+18:28:33,484 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:28:33,484 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:28:34,541 DEBUG SQL:144 - 
+    update
+        Student 
+    set
+        guide_id=?,
+        name=? 
+    where
+        id=?
+18:28:34,542 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:28:34,543 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Muneer]
+18:28:34,544 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+18:28:36,531 DEBUG SQL:144 - 
+    update
+        Student 
+    set
+        guide_id=?,
+        name=? 
+    where
+        id=?
+18:28:36,540 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+18:28:36,541 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Mubeen]
+18:28:36,541 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [2]
+20:35:28,197 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:35:28,237 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:35:28,241 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:37:43,220 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:37:43,231 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:37:43,235 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:38:23,803 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:38:23,812 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:38:23,815 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:38:25,123 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:38:25,183 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+20:38:25,187 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+20:38:25,190 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+20:38:25,191 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [4]
+20:39:22,282 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:39:22,296 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:39:22,300 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:39:23,693 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:39:23,753 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+20:39:23,757 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+20:39:23,760 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+20:39:23,761 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [5]
+20:42:13,758 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:42:13,771 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:42:13,776 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:42:15,177 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:42:15,228 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+20:42:15,233 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+20:42:15,237 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+20:42:15,237 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [6]
+20:48:04,898 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:48:04,920 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:48:04,924 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:48:06,102 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+20:48:06,148 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+20:48:06,152 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+20:48:06,154 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+20:48:06,155 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [7]
+20:48:44,997 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+20:48:45,011 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+20:48:45,016 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+20:49:10,478 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:20:29,422 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+21:20:29,477 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+21:20:29,490 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+21:20:29,490 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [8]
+21:21:04,658 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+21:21:04,731 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+21:21:04,735 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+21:21:06,211 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:21:06,255 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+21:21:06,258 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+21:21:06,260 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+21:21:06,260 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [9]
+21:22:22,899 DEBUG SQL:144 - 
+    create global temporary table HT_Animal (Id number(19,0) not null) 
+        on commit delete rows
+21:22:22,912 DEBUG SQL:144 - 
+    create global temporary table HT_Cat (Id number(19,0) not null) 
+        on commit delete rows
+21:22:22,915 DEBUG SQL:144 - 
+    create global temporary table HT_Dog (Id number(19,0) not null) 
+        on commit delete rows
+21:22:23,955 DEBUG SQL:144 - 
+    select
+        hibernate_sequence.nextval 
+    from
+        dual
+21:22:23,999 DEBUG SQL:144 - 
+    insert 
+    into
+        Student
+        (guide_id, name, id) 
+    values
+        (?, ?, ?)
+21:22:24,003 TRACE BasicBinder:52 - binding parameter [1] as [BIGINT] - [null]
+21:22:24,007 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Spicy]
+21:22:24,008 TRACE BasicBinder:64 - binding parameter [3] as [BIGINT] - [10]
